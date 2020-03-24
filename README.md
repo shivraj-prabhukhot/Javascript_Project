@@ -1,1 +1,3 @@
-# Javascript_Project
+# Javascript_Project 
+
+##Cards game implementation
