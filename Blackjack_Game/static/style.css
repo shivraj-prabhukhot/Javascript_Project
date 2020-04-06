@@ -1,0 +1,41 @@
+.good{
+    font-style: italic;
+    color: slateblue;
+}
+.container{
+    border:solid 1px black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('images/blackjack-background-img.jpg');
+    color:#ffffff;
+}
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex:1;
+    text-align: center;
+    height: 350px;
+}
+.flex-blackjack-row-1 div img{
+    width: 90px;
+    height: 100px;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+}
+table th{
+    border: 1px solid black;
+    padding: 10px;
+}
